@@ -1,0 +1,124 @@
+.card {
+  color: white;
+  background-color: rgba(0,0,0,0.29);
+}
+
+.table.table-striped.table-sm.mydatatable {
+  color: white;
+}
+
+.table-responsive.table {
+  color: white;
+}
+
+.btn_edit_ui {
+  background-color: #4ceae1;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #2c2c32;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn_delete_ui {
+  background-color: #ea4c55;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #343541;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn_play_ui {
+  background-color: #1559de;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #343541;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn_delete_ui:hover, .btn_delete_ui:focus {
+  background-color: #ab4248;
+}
+
+.btn_edit_ui:hover, btn_edit_ui:focus {
+  background-color: #43bab3;
+}
+
+.btn_play_ui:hover, btn_play_ui:focus {
+  background: rgb(36,86,183);
+}
+
+.btn_delete_ui, .btn_edit_ui, .btn_play_ui {
+  margin-left: 10px;
+  margin-right: 10px;
+  float: right;
+}
+
+#tbody_student {
+  text-align: center;
+}
+
+#students {
+  text-align: center;
+}
+
+thead.tr.th {
+  text-align: center;
+}
+
